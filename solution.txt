@@ -1,0 +1,4 @@
+select nome, cognome from public.clienti where data-nascita = 1982
+select count(*) from fatture where iva = 20
+select count(*), sum(importo) from fatture order by public.data-fattura
+select * from public.prodotti where data-attivazione = 2017 and 
